@@ -25,6 +25,9 @@ arr.forEach((button) => {
     } else if (e.target.innerHTML == "log") {
       string = Math.log(string);
       input.value = string;
+    } else if (e.target.innerHTML == "tan") {
+      string = Math.tan(string);
+      input.value = string;
     } else if (e.target.innerHTML == "x!") {
       input.value = string;
     } else if (e.target.innerHTML == "x²") {
